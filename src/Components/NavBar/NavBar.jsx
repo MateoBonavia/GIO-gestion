@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div className={style.container}>
       <div className={style.left}>
-        <img src={Logo} className={style.logo} />
+        <img src={Logo} alt="logo" className={style.logo} />
         <p className={style.logo_text}>GIO</p>
       </div>
       <div className={style.mid}>
