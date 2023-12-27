@@ -3,10 +3,12 @@ import Home from "./Screens/Home/Home";
 import AboutUs from "./Screens/About Us/AboutUs";
 import Services from "./Screens/Services/Services";
 import Contact from "./Screens/Contact/Contact";
+// import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
   return (
     <div>
+      {/* <NavBar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nosotros" element={<AboutUs />} />

@@ -1,0 +1,131 @@
+.general__container {
+  max-height: 100vh;
+}
+
+.page__container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../Assets/Background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: calc(100vh - 100px);
+  z-index: 1;
+}
+
+.page__container > div {
+  padding: 0 150px;
+}
+
+.services__top > p {
+  padding-top: 80px;
+  color: #cccccc;
+  font-size: 1.2rem;
+}
+
+.services__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services__title {
+  padding-top: 50px;
+}
+
+.title {
+  color: #fff;
+  font-size: 3.3rem;
+}
+
+.services__subtitles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.gestion__section {
+  width: 100%;
+}
+
+.gestion__title {
+  background-color: #cccccc;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.list__container {
+  padding: 0 50px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20px; */
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.services__subtitles_down {
+  width: 100%;
+  padding: 60px 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__subtitles_down > div {
+  width: 25rem;
+}
+
+.contable__title {
+  background-color: #cccccc;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.first_list_container_down {
+  padding-left: 50px;
+  padding-top: 30px;
+  color: #cccccc;
+  font-size: 1.4rem;
+}
+
+.list_container_down {
+  padding-left: 50px;
+  padding-top: 30px;
+  color: #cccccc;
+  font-size: 1.4rem;
+}
+
+.last_list_container_down {
+  padding-left: 50px;
+  padding-top: 30px;
+  color: #cccccc;
+  font-size: 1.4rem;
+}
+
+.legales__title {
+  background-color: #cccccc;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.marketing__title {
+  background-color: #cccccc;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
